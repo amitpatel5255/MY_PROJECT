@@ -1,0 +1,60 @@
+.navbar{
+    padding: 25px;
+    box-shadow: 0 1px 3px -2px black;
+    text-align: center;
+}
+.nav_1{
+    margin: 0 auto;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family:monospace ;
+}
+.nav-logo p{
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+    /* text-decoration: none; */
+
+}
+.nav-login-cart button{
+    margin: 5px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border: 1px solid #7a7a7a;
+    background: white;
+    cursor: pointer;
+}
+.nav-login-cart img{
+    margin-right: 10px;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+    margin-left: 98px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+.nav-menu{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
